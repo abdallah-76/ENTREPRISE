@@ -19,6 +19,7 @@ karim.toubal@etudiant.univ-brest.fr
 <?php
 $mysqli = new mysqli('localhost', 'e22308154sql', '8eiFE5BT', 'e22308154_db2');
 if ($mysqli->connect_errno) {
+	
     echo "Error: Problème de connexion à la BDD \n";
     echo "Errno: " . $mysqli->connect_errno . "\n";
     echo "Error: " . $mysqli->connect_error . "\n";
